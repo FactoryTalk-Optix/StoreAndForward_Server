@@ -49,7 +49,6 @@ Children:
         ArrayDimensions: [0]
         Value: []
     - Name: IsRunning
-      Id: g=8665573dc955618f524b45e58d77b043
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
@@ -119,12 +118,10 @@ Children:
       DataType: Boolean
       Value: false
     - Name: ClientId
-      Id: g=a8f98a0fe796530128d3d0646564b18a
       Type: BaseDataVariableType
       DataType: String
       Value: ""
     - Name: Connected
-      Id: g=d38bd1f5fef8378060e351151e89bd9a
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
@@ -177,12 +174,12 @@ Children:
       - Name: Store
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"080b88a3033fdc82805db5a31595ae3f","Namespace":7}
+        Value: "/Objects/StoreAndForward_Server/DataStores/EmbeddedDatabase1"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":1,"Namespace":11}
+          Value: "/Types/ObjectTypes/BaseObjectType/Store"
       - Name: StoreTablesTopic
         Type: BaseDataVariableType
         DataType: String
@@ -247,12 +244,12 @@ Children:
       - Name: Store
         Type: NodePointer
         DataType: NodeId
-        Value: {"IdType":2,"Id":"080b88a3033fdc82805db5a31595ae3f","Namespace":7}
+        Value: "/Objects/StoreAndForward_Server/DataStores/EmbeddedDatabase1"
         Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: {"Id":1,"Namespace":11}
+          Value: "/Types/ObjectTypes/BaseObjectType/Store"
       - Name: TableNames
         Type: BaseDataVariableType
         DataType: Int32
